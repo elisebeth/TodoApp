@@ -1,0 +1,30 @@
+.todo-add-item {
+  margin: 25px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-add-item__button {
+  padding: 10px;
+  outline: none;
+  background: none;
+  border: 1px solid #000;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: color .3s, background .3s ease;
+}
+
+.todo-add-item__button:hover {
+  color: #fff;
+  background: #000;
+}
+
+.todo-add-item__input {
+  padding: 10px 15px;
+  width: 85%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #000;
+}

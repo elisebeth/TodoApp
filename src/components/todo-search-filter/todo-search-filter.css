@@ -1,0 +1,46 @@
+.input__list {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.list__button {
+  font-size: 24px;
+  font-weight: 400;
+  width: 33.33%;
+  padding: 5px;
+  outline: none;
+  border: none;
+  background: none;
+  border: 1px solid #ccc;
+  transition: background .3s, color .3s ease;
+}
+
+.list__button:hover {
+  color: #fff;
+  background: #4169E1;
+}
+
+.first {
+  border-right: none;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.last {
+  border-left: none;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+}
+
+.active {
+  background: #4169E1;
+  color: #fff;
+}

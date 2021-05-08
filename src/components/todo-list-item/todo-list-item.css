@@ -1,0 +1,57 @@
+.content__place {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item__content {
+  font-size: 26px;
+  margin-left: 25px;
+}
+
+
+.done {
+  text-decoration: line-through;
+}
+
+
+.button__box {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: 45px;
+  height: 40px;
+  outline: none;
+  background: none;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: color .3s, background .3s ease;
+}
+
+.trash {
+  border: 2px solid lightcoral;
+  color: lightcoral;
+}
+
+.point {
+  border: 2px solid #00c400;
+  color: #00c400;
+}
+
+.trash:hover {
+  color: #fff;
+  background: lightcoral;
+}
+
+.point:hover {
+  color: #fff;
+  background: #00c400;
+}
+
+
+.button:first-child {
+  margin-right: 25px;
+}
